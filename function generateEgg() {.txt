@@ -1,0 +1,11 @@
+function generateEgg() {
+    const eggs = [
+        "🥚 Golden Egg!",
+        "🐣 Hatching Chick Egg!",
+        "🦖 Dino Egg!",
+        "🌈 Rainbow Succinct Egg!",
+        "💎 Crystal Succinct Egg!"
+    ];
+    const randomEgg = eggs[Math.floor(Math.random() * eggs.length)];
+    document.getElementById("egg-output").innerText = randomEgg;
+}
